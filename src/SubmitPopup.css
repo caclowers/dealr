@@ -1,0 +1,38 @@
+h2{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+}
+
+h5{
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+}
+
+#donateDiv{
+  margin-bottom: 2rem;
+}
+
+#emailDiv{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#swalComponent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#swalComponent img{
+  height: 8rem;
+  /* width: auto; */
+}

@@ -1,11 +1,30 @@
+input{
+  height: 2rem;
+  font-size: 1.25rem;
+  width: 40rem
+}
+
+button{
+height: 2.5rem;
+width: 50%;
+font-size: 1.25rem
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -14,12 +33,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 8vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.fa{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 }
 
 @keyframes App-logo-spin {
